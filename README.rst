@@ -22,6 +22,10 @@ Instalación
 
 * Verificar que docker-compose está disponible - https://docs.docker.com/compose/install/
 
+* En Windows desde cmd.exe::
+
+    $ docker-compose --version
+
 * Generar la plataforma de desarrollo local::
 
     $ docker-compose -f local.yml build
@@ -37,6 +41,8 @@ Instalación
 * Navegar a http://localhost:8000/
 
 * El administrador está en http://localhost:8000/admin
+
+* Adicionalmente, se instaló MySQL 5.7, el cual se puede acceder desde Adminer en: http://127.0.0.1:8080/?server=mysql
 
 Solución de Problemas
 ^^^^^^^^^^^^^^^^^^^^^
