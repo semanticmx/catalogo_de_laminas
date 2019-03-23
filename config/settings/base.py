@@ -76,7 +76,7 @@ THIRD_PARTY_APPS = [
 ]
 LOCAL_APPS = [
     'catalogo_de_laminas.users.apps.UsersAppConfig',
-    # Your stuff: custom apps go here
+    'catalogo_de_laminas.wised',
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

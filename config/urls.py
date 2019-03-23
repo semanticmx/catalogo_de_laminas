@@ -21,6 +21,7 @@ urlpatterns = [
     ),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
+    path('api/', include('catalogo_de_laminas.api.urls', namespace='api'))
 ] + static(
     settings.MEDIA_URL, document_root=settings.MEDIA_ROOT
 )
